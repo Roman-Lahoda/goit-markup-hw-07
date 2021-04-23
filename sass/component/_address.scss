@@ -1,0 +1,14 @@
+.address__item {
+  margin-bottom: 9px;
+}
+.map {
+  color: var(--dark-bg-color-text);
+}
+.mail,
+.tell {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+  width: calc((50% - 45px) / 2);
+}

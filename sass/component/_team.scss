@@ -1,0 +1,13 @@
+.team {
+  background-color: var(--light-bgc);
+}
+
+.team__list {
+  --grid-item-count: 4;
+  --space-between: 30px;
+}
+
+.team__item {
+  box-shadow: var(--box-shadow);
+  border-radius: 0px 0px 4px 4px;
+}

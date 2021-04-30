@@ -12,8 +12,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: 700;
-  line-height: 1.14;
+  font-weight: $fw700;
+  line-height: $lh1-14;
   text-transform: uppercase;
   color: var(--dark-bg-color-text);
   height: 70px;

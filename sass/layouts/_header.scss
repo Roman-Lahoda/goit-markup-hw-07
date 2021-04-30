@@ -1,5 +1,6 @@
 .page-header {
   border-bottom: 1px solid var(--border-header);
+  position: relative;
 }
 
 .page-header__conteiner {
@@ -8,4 +9,21 @@
 
 .page-header__logo {
   margin-right: 93px;
+}
+
+.header-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #fff;
+}
+
+.icon-menu {
+  fill: #000000;
+}
+.is-open {
+  display: block;
 }

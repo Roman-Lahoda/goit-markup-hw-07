@@ -1,8 +1,8 @@
 .subscription__title {
   color: var(--bg-color-text);
   text-transform: uppercase;
+  line-height: $lh1-14;
   font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
@@ -37,8 +37,7 @@
   margin-right: 12px;
 
   &::placeholder {
-    font-weight: 400;
-    font-size: 16px;
+    font-size: $fs16;
     line-height: 1.25;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
